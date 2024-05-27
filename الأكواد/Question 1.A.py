@@ -1,0 +1,6 @@
+d= {}
+L1 = ["HTTP","HTPPS","FTP","DNS"]
+L2 = [80,443,21,53]
+for i,j in zip(L1,L2):
+    d[i]=j
+print(d)    
